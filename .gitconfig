@@ -1,0 +1,13 @@
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[user]
+	name = shanmdphd
+	email = pil.han@gmail.com
+[push]
+	default = simple
+[color]
+	ui = true
+[core]
+	editor = /usr/bin/vim
